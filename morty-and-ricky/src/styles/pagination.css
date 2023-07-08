@@ -1,0 +1,33 @@
+.pagi__container{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    margin:5rem;
+}
+.pagi__btn {
+    color:white;
+    border-radius: 20px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    background-color: transparent;
+}
+
+.pagi__btn:focus,
+.pagi__btn:hover {
+    color: white;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.pagi__btn--current {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.pagi__icon {
+    width: 22px;
+    height: 22px;
+}
+.pagi__btn:disabled {
+    color: rgba(0, 0, 0, 0.08);
+    background-color: rgba(0, 0, 0, 0.2);
+}
